@@ -1,11 +1,11 @@
 <%@include file="header.html"%>
 <!DOCTYPE html>
 <html>
-<title>CUTM</title>
+<title>Centurion University Of Technology And Management</title>
 <body>
 <img src="logo.png"  align="left"width="100" height="100">
-<center><img src="logo.png" width="100" height="100">
-<img src="muktisir.png" align="right"  width="100" height="100"></center>
+<center><img src="dgi.png" width="100" height="100">
+<img src="muktisir.jpeg" align="right"  width="100" height="100"></center>
 <div class="w3-container">
   <div class="w3-bar w3-black">
     <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')">Add New Student</button>
@@ -148,7 +148,7 @@
                     <div class="card">
                         <div class="card-header">Insert New Result</div>
                         <div class="card-body">
-                            <form name="my-form" onsubmit="return validform()" action="insertNewResult.jsp" method="post">
+                            <form name="my-form" onsubmit="return validform()" action="insertNewResult2.jsp" method="post">
                                 <div class="form-group row">
                                     <label for="full_name" class="col-md-4 col-form-label text-md-right">Roll Number</label>
                                     <div class="col-md-6">
@@ -157,49 +157,49 @@
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="email_address" class="col-md-4 col-form-label text-md-right">Physics</label>
+                                    <label for="email_address" class="col-md-4 col-form-label text-md-right">Engg. Physics</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s1">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="user_name" class="col-md-4 col-form-label text-md-right">Chemistrt</label>
+                                    <label for="user_name" class="col-md-4 col-form-label text-md-right">Advanced Web Programming</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s2">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="phone_number" class="col-md-4 col-form-label text-md-right">Spring Boot</label>
+                                    <label for="phone_number" class="col-md-4 col-form-label text-md-right">Operating System</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s3">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="present_address" class="col-md-4 col-form-label text-md-right">Advance Java</label>
+                                    <label for="present_address" class="col-md-4 col-form-label text-md-right">Advanced java</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s4">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Skill</label>
+                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Spring Boot</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s5">
                                     </div>
                                 </div>
                                 
                                  <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Data Visualisation using Python</label>
+                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Angular</label>
                                     <div class="col-md-6">
                                         <input type="text"  class="form-control" name="s6">
                                     </div>
                                 </div>
                                 
                                  <div class="form-group row">
-                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Probability</label>
+                                    <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Data Visualization</label>
                                     <div class="col-md-6">
                                         <input type="text" class="form-control" name="s7">
                                     </div>
@@ -290,13 +290,13 @@
       <thead>
         <tr>
           <th>Roll Number</th>
-          <th>Engg. Physics-I</th>
-          <th>Engg. Chemistry</th>
-          <th>Engg. Mathematics-I</th>
-          <th>Basic Electrical Engg</th>
-          <th>Electronic Engg.</th>
-          <th>Engg. Chemistry Lab</th>
-          <th>Engg. Physics Lab</th>
+          <th>Engg. Physics</th>
+          <th>Advanced Web Programming</th>
+          <th>Operating System</th>
+          <th>Adavnced Java</th>
+          <th>Spring Boot</th>
+          <th>Angular</th>
+          <th>Data Visualization</th>
         </tr>
       </thead>
     </table>
@@ -336,6 +336,12 @@
 </section>
 
 </div>
+    <hr class="new1">
+  <center><h5>Note: Any errors occur then contact BTech Days.
+Designed & Developed by BTech Days Team</h5></center>
+  <hr class="new1">
+<center><h5>All Right Reserved @ BTech Days :: 2022-2024</h5></center> 
+  <hr class="new1">
 <br>
 </body>
 </html>

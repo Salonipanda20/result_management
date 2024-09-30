@@ -3,11 +3,10 @@
 <%
 String course=request.getParameter("course");
 String branch=request.getParameter("branch");
-String rollNo=request.getParameter("rollNo");
+String rollNo=request.getParameter("regdNo");
 String name=request.getParameter("name");
 String fatherName=request.getParameter("fatherName");
 String gender=request.getParameter("gender");
-
 try
 {
 	Connection con=ConnectionProvider.getCon();
@@ -16,11 +15,9 @@ try
 	response.sendRedirect("adminHome.jsp");
       
       }
-
 catch(Exception e)
 { 
 	out.println(e);
 	
 }
-
 %>
